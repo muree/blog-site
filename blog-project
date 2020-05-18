@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Blog</title>
+    <style media="screen">
+
+
+.navigation-bar{
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-flex: 1 1 0%;
+  -ms-flex: 1 1 0%;
+  flex: 1 1 0%;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: center;
+  max-width: 20%;
+  background-color: #151515;
+  margin-top: 50px;
+
+}
+.navigation-bar a {
+  color: rgba(255, 255, 255);
+
+}
+.header__nav {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.header__nav li {
+  display: block;
+  padding: 0 2rem 0 0;
+  width: 100%;
+  position: relative;
+}
+
+.header__nav li a {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 100px;
+}
+
+.header__nav li.has-children {
+  padding-right: 15px;
+}
+.post1{
+  background-color: rgb(210,52,235);
+  width: 750px;
+}
+.post2{
+  background-color: rgb(167,217,148);
+  width: 750px;
+}
+.post1, .post2{
+  padding: 18px;
+  position: sticky;
+  margin-left: 200px;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+  border-style: solid;
+
+}
+body{
+  background-color: yellow;
+}
+img{
+  width: 350px;
+  height: 300px;
+
+}
+.navigation-bar{
+  float: left;
+}
+    </style>
+  </head>
+  <body>
+    <header class="s-header">
+
+        <div class="header__top">
+            <div class="header__logo">
+
+            </div>
+            <div >
+            <div class="wrap"style="width: 100%; overflow: hidden;">
+    <div class="navbar">
+    <nav class="navigation-bar">
+      <ul class="header__nav">
+        <li class="current"><a href="index.html" title="">Home</a>
+          <li class="has-children">
+              <a href="#0" title="">Categories</a>
+              <ul class="sub-menu">
+              <li style="background:purple" ><a href="#holiday">Travel</a></li>
+              <li style="background:green"><a href="#jrice">Nigerian Food</a></li>
+            </ul>
+        </li>
+    </nav>
+    </div>
+    <div class="content"float: left;>
+    <div class="post1" style="overflow:hidden">
+      <img id="holiday"src="https://res.cloudinary.com/mureebaba/image/upload/v1589832538/travel_x0t50g.jpg" alt="holiday-photo">
+      <label for="holiday">visiting Beautiful scenes</label>
+      <h1>Travel</h1>
+      <p><strong>Travel</strong> is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip. Travel can also include relatively short stays between successive movements, as in the case of tourism.Reasons for traveling include recreation, tourism or vacationing, research travel, the gathering of information, visiting people, volunteer travel for charity, migration to begin life somewhere else, religious pilgrimages and mission trips, business travel, trade, commuting, and other reasons, such as to obtain health care or waging or fleeing war or for the enjoyment of traveling. Travellers may use human-powered transport such as walking or bicycling; or vehicles, such as public transport, automobiles, trains and airplanes.</p>
+    </div>
+    <div class="post2">
+      <img id="jrice" src="https://res.cloudinary.com/mureebaba/image/upload/v1589832538/jollof_d7aze3.jpg" alt="joolof-rice">
+      <label for="jrice">Have a taste of the Nigerian Jollof</label>
+      <h1>Nigerian Food</h1>
+      <p>Nigerian foods are simple and easy to make. If you can read your emails and chat on Facebook, then you can follow the recipes on this site to learn how to make Nigerian dishes, it is that simple 😉
+
+Welcome to the best blog in the world for All Nigerian foods, if you are looking for quick, simple and easy Nigerian recipes then you are at the right place. You can use this site irrespective of your location.
+
+Whether you are new to Naija foods or you are just looking to improve your menu, you are in the right place.
+
+Nigerian Foods
+
+You will learn so much about making Nigerian foods that you would surprise the people around you… and even surprise yourself,</p>
+    </div>
+    </div>
+</div>
+  </body>
+</html>
